@@ -1,0 +1,516 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create the repository file structure": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619039624
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619049278
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619080307
+      }
+    ],
+    "2.1 Build the full HTML skeleton in `index.html`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619039955
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619085219
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619211233
+      }
+    ],
+    "3.1 Define CSS custom properties and base styles in `css/style.css`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040211
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619089255
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619214974
+      }
+    ],
+    "3.2 Implement the pixel/retro visual language": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040443
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619220868
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619308755
+      }
+    ],
+    "3.3 Implement mobile-first responsive grid": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040585
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619224807
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619312052
+      }
+    ],
+    "4.1 Implement `getDefaultState`, `loadState`, and `saveState` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040697
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619230146
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619315535
+      }
+    ],
+    "5.1 Implement `formatRupiah` and `formatRupiahFallback` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040789
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619320525
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619694067
+      }
+    ],
+    "6.1 Implement the early-IIFE theme application and `toggleTheme` / `applyTheme` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040913
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619325467
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619699800
+      }
+    ],
+    "7.1 Implement category color helpers and `addCategory` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619040996
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619707930
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619781592
+      }
+    ],
+    "8.1 Implement XP and level functions in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041088
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619711154
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619785696
+      }
+    ],
+    "8.4 Implement `updateStreak` and `daysBetween` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041186
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619715029
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619790642
+      }
+    ],
+    "8.6 Implement `checkBadges` and `BADGE_DEFINITIONS` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041288
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794620099904
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794620173499
+      }
+    ],
+    "9.1 Implement `generateId`, `addTransaction`, `deleteTransaction`, and `getBalance` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041372
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794620105720
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621698254
+      }
+    ],
+    "10.1 Implement spending limit set/validate logic and computed helpers in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041459
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794620110440
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621702272
+      }
+    ],
+    "11.1 Implement `initChart`, `updateChart`, and `getCategoryTotals` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041546
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621706916
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621755162
+      }
+    ],
+    "12.1 Implement all individual render functions in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041637
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621759612
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621963360
+      }
+    ],
+    "13.1 Wire all DOM events to logic functions in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041717
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621970558
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622079220
+      }
+    ],
+    "14.1 Implement `showNotification` in `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041806
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619330017
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619703425
+      }
+    ],
+    "15.1 Implement the `INIT` section at the bottom of `js/script.js`": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619041945
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622085548
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622174299
+      }
+    ],
+    "16. Checkpoint — core app integration": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042040
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622183960
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622257920
+      }
+    ],
+    "17.1 Set up fast-check test harness with a Node.js test runner": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042135
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622261501
+      },
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622696688
+      }
+    ],
+    "18.1 Create `tests/state.test.js` — Property 1: State serialization round-trip": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042223
+      }
+    ],
+    "18.2 Create `tests/transactions.test.js` — Properties 2, 3, 11": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042309
+      }
+    ],
+    "18.3 Create `tests/gamification.test.js` — Properties 4, 5, 6, 9": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042392
+      }
+    ],
+    "18.4 Create `tests/formatter.test.js` — Property 7": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042478
+      }
+    ],
+    "18.5 Create `tests/categories.test.js` — Properties 8, 10": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042570
+      }
+    ],
+    "19. Final checkpoint — all tests pass and responsive layout verified": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619042760
+      }
+    ],
+    "1. Project scaffolding and file structure": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619080452
+      }
+    ],
+    "2. HTML shell — semantic structure": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619211360
+      }
+    ],
+    "3. CSS foundation — design tokens and layout": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619312164
+      }
+    ],
+    "4. State module — load, save, defaults, and malformed-data recovery": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619315667
+      }
+    ],
+    "5. Formatter module — Rupiah currency formatting": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619694179
+      }
+    ],
+    "6. Theme module — dark/light toggle with flash prevention": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619699917
+      }
+    ],
+    "14. Notification system — slide-in toasts with auto-dismiss": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619703514
+      }
+    ],
+    "7. Categories module — defaults and custom category management": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794619781732
+      }
+    ],
+    "8. Gamification module — XP, levels, streaks, and badges": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794620173670
+      }
+    ],
+    "9. Transaction module — CRUD with validation and XP integration": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621698354
+      }
+    ],
+    "10. Spending limit module — validation, Boss Battle banner, balance highlight": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621702344
+      }
+    ],
+    "11. Chart.js integration — pie chart with live updates": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621755251
+      }
+    ],
+    "12. UI render functions — full component rendering": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794621963448
+      }
+    ],
+    "13. Event listeners and form handlers": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622079274
+      }
+    ],
+    "15. INIT bootstrap — DOMContentLoaded wiring": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622174394
+      }
+    ],
+    "17. Property-based test harness setup": [
+      {
+        "executionId": "bb8b4610-1e7c-4a2d-8fe5-b3d98d5ba184",
+        "chatSessionId": "sess_dc99f646-4827-498d-abdf-01cd92c0f94d",
+        "timestamp": 1794622696817
+      }
+    ]
+  }
+}

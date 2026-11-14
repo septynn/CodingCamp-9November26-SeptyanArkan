@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget Quest</title>
+
+  <!-- Google Fonts: Press Start 2P (headings) & VT323 (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet" />
+
+  <!-- App stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <span class="app-title">&#9876;&#65039; Budget Quest</span>
+    <button id="theme-toggle" aria-label="Toggle dark/light mode">&#127769; Dark</button>
+  </header>
+
+  <!-- ===== MAIN APP GRID ===== -->
+  <main class="app-grid">
+
+    <!-- Balance Card (full-width) -->
+    <section id="balance-card" class="full-width" aria-label="Total balance">
+      <span class="balance-label">Total Balance</span>
+      <span class="balance-amount">Rp 0</span>
+      <span class="spending-limit-display">Spending Limit: Not set</span>
+    </section>
+
+    <!-- Boss Battle Banner (hidden by default, full-width) -->
+    <section id="boss-banner" class="full-width" hidden aria-live="assertive" aria-label="Boss battle warning">
+      &#9888;&#65039; BOSS BATTLE! You have exceeded your spending limit! &#9888;&#65039;
+    </section>
+
+    <!-- Hero Panel -->
+    <section id="hero-panel" aria-label="Hero stats">
+      <div class="hero-level">Level 1</div>
+      <div class="xp-bar-container" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="XP progress">
+        <div class="xp-bar-fill" style="width: 0%"></div>
+      </div>
+      <div class="xp-label">0 / 50 XP</div>
+    </section>
+
+    <!-- Streak Panel -->
+    <section id="streak-panel" aria-label="Daily streak">
+      <div class="streak-count">&#128293; 0 day streak</div>
+    </section>
+
+    <!-- Controls Grid: Transaction Form, Limit Form, Category Form -->
+    <div class="controls-grid full-width">
+
+      <!-- Transaction Form -->
+      <form id="transaction-form" novalidate aria-label="Add transaction">
+        <h2>Add Expense</h2>
+        <label for="item-input">Item</label>
+        <input id="item-input" type="text" placeholder="e.g. Coffee" autocomplete="off" required />
+
+        <label for="amount-input">Amount (Rp)</label>
+        <input id="amount-input" type="number" placeholder="e.g. 25000" min="1" required />
+
+        <label for="category-select">Category</label>
+        <select id="category-select" required>
+          <option value="Food">Food</option>
+          <option value="Transport">Transport</option>
+          <option value="Fun">Fun</option>
+        </select>
+
+        <span class="form-error" role="alert" aria-live="polite"></span>
+
+        <button type="submit">+ Add Transaction</button>
+      </form>
+
+      <!-- Spending Limit Form -->
+      <form id="limit-form" novalidate aria-label="Set spending limit">
+        <h2>Spending Limit</h2>
+        <label for="limit-input">Set Limit (Rp)</label>
+        <input id="limit-input" type="number" placeholder="e.g. 500000" min="1" />
+
+        <span class="limit-error" role="alert" aria-live="polite"></span>
+
+        <button type="submit">Set Limit</button>
+      </form>
+
+      <!-- Custom Category Form -->
+      <form id="category-form" novalidate aria-label="Add custom category">
+        <h2>Add Category</h2>
+        <label for="category-input">Category Name</label>
+        <input id="category-input" type="text" placeholder="e.g. Health" autocomplete="off" />
+
+        <span class="category-error" role="alert" aria-live="polite"></span>
+
+        <button type="submit">+ Add Category</button>
+      </form>
+
+    </div><!-- /.controls-grid -->
+
+    <!-- Transaction List (full-width) -->
+    <section id="transaction-list" class="full-width" aria-label="Transaction history" aria-live="polite">
+      <!-- Transaction items rendered by JS -->
+    </section>
+
+    <!-- Chart Container (full-width on mobile, col 2 on desktop) -->
+    <section id="chart-container" aria-label="Spending breakdown chart">
+      <canvas id="spending-chart"></canvas>
+    </section>
+
+    <!-- Badge Section (full-width) -->
+    <section id="badge-section" class="full-width" aria-label="Badges and achievements">
+      <!-- Badge items rendered by JS -->
+    </section>
+
+  </main><!-- /.app-grid -->
+
+  <!-- Notification Container (fixed overlay) -->
+  <div id="notification-container" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- Chart.js via CDN (must come before script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+  <!-- App script -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
